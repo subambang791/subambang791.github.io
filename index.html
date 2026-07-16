@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT Apotek Hidayah Farma | Layanan Jaringan Farmasi & Solusi Kesehatan Terpadu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #fafbfc; }
+        .font-display { font-family: 'Space Grotesk', sans-serif; }
+        
+        .hero-pharma {
+            background: linear-gradient(rgba(16, 185, 129, 0.85), rgba(15, 23, 42, 0.98)), 
+                        url('https://images.unsplash.com/photo-1586015555751-63bb77f4322a?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .emerald-glow {
+            box-shadow: 0 0 30px rgba(16, 185, 129, 0.2);
+        }
+
+        .text-gradient {
+            background: linear-gradient(90deg, #10b981, #06b6d4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .pharma-card {
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .pharma-card:hover {
+            transform: translateY(-6px);
+            border-top: 4px solid #10b981;
+            box-shadow: 0 20px 25px -5px rgba(16, 185, 129, 0.08);
+        }
+    </style>
+</head>
+<body class="text-slate-800 antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-slate-950 border-b border-slate-900 shadow-xl backdrop-blur-md bg-opacity-95">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-emerald-600 rounded-xl flex items-center justify-center shadow-lg emerald-glow">
+                    <i class="fas fa-prescription-bottle-medical text-white text-lg"></i>
+                </div>
+                <div class="leading-none">
+                    <span class="text-2xl font-display font-bold tracking-tight text-white block uppercase">HIDAYAH FARMA</span>
+                    <span class="text-[9px] uppercase tracking-[0.3em] font-bold text-emerald-400">APOTEK NETWORK</span>
+                </div>
+            </div>
+            <div class="hidden md:flex space-x-10 text-[11px] font-bold uppercase tracking-widest text-slate-400">
+                <a href="#home" class="hover:text-white transition">Beranda</a>
+                <a href="#solutions" class="hover:text-white transition">Layanan & Supply</a>
+                <a href="#about" class="hover:text-white transition">Standar Klinis</a>
+                <a href="#contact" class="hover:text-white transition">Kemitraan B2B</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-pharma h-screen flex items-center px-6 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto w-full relative z-10">
+            <div class="max-w-3xl">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-300 text-[10px] font-bold mb-8 uppercase tracking-widest">
+                    <i class="fas fa-notes-medical"></i> Certified Pharmacy Network • SIA & SIPA Regulated Excellence
+                </div>
+                <h1 class="text-5xl md:text-7xl font-display font-bold text-white mb-8 leading-none uppercase tracking-tight">
+                    Integritas Farmasi, <br>Layanan <span class="text-gradient">Penuh Amanah.</span>
+                </h1>
+                <p class="text-lg text-slate-300 mb-12 leading-relaxed max-w-xl font-light">
+                    PT Apotek Hidayah Farma mengintegrasikan manajemen tata kelola retail apotek modern, jaminan rantai pasok sediaan farmasi bersertifikasi, serta ekosistem konsultasi obat tepercaya untuk melindungi kesehatan dan kesejahteraan keluarga.
+                </p>
+                <div class="flex flex-col md:flex-row gap-6">
+                    <a href="#solutions" class="bg-emerald-600 text-white px-10 py-4 font-bold uppercase text-[11px] tracking-widest hover:bg-white hover:text-slate-900 transition-all text-center rounded shadow-xl shadow-emerald-600/20">
+                        Eksplorasi Divisi Layanan
+                    </a>
+                    <a href="#contact" class="border border-slate-500 text-white px-10 py-4 font-bold uppercase text-[11px] tracking-widest hover:bg-white hover:text-slate-900 transition-all text-center rounded">
+                        Hubungi Manajemen
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Solutions Grid -->
+    <section id="solutions" class="py-32 px-6 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-24 gap-8">
+                <div class="max-w-xl">
+                    <h2 class="text-4xl md:text-5xl font-display font-bold text-slate-900 mb-6 uppercase tracking-tight">Ekosistem Tata Kelola Farmasi</h2>
+                    <p class="text-slate-500 leading-relaxed font-light border-l-2 border-emerald-600 pl-8 italic">"Kami menyelaraskan keaslian sediaan obat, ketepatan penyimpanan sesuai regulasi klinis, serta transparansi hukum operasional demi keamanan maksimal pasien."</p>
+                </div>
+                <div class="text-slate-200 font-display text-7xl font-bold tracking-widest hidden lg:block">PHARMA NETWORK</div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="p-10 bg-slate-50 border border-slate-100 rounded-2xl pharma-card group">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center mb-8 shadow-sm group-hover:bg-emerald-600 transition-colors">
+                        <i class="fas fa-store-medical text-2xl text-slate-700 group-hover:text-white"></i>
+                    </div>
+                    <h4 class="text-xl font-display font-bold mb-4 text-slate-900 uppercase tracking-wider">Apotek Retail Management</h4>
+                    <p class="text-slate-500 text-sm leading-relaxed font-light">Tata kelola profesional operasional gerai apotek, sistem monitoring masa kedaluwarsa otomatis, serta standardisasi pelayanan kefarmasian harian.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="p-10 bg-slate-50 border border-slate-100 rounded-2xl pharma-card group">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center mb-8 shadow-sm group-hover:bg-emerald-600 transition-colors">
+                        <i class="fas fa-truck-droplet text-2xl text-slate-700 group-hover:text-white"></i>
+                    </div>
+                    <h4 class="text-xl font-display font-bold mb-4 text-slate-900 uppercase tracking-wider">B2B Pharmaceutical Supply</h4>
+                    <p class="text-slate-500 text-sm leading-relaxed font-light">Manajemen rantai pasok pengadaan obat generik, paten, alat kesehatan, dan multivitamin skala besar untuk klinik swasta dan instansi korporat.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="p-10 bg-slate-50 border border-slate-100 rounded-2xl pharma-card group">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center mb-8 shadow-sm group-hover:bg-emerald-600 transition-colors">
+                        <i class="fas fa-user-doctor text-2xl text-slate-700 group-hover:text-white"></i>
+                    </div>
+                    <h4 class="text-xl font-display font-bold mb-4 text-slate-900 uppercase tracking-wider">Clinical Care Consultation</h4>
+                    <p class="text-slate-500 text-sm leading-relaxed font-light">Penyediaan layanan edukasi obat terstruktur, monitoring kepatuhan terapi pasien, serta rekonsiliasi obat oleh Apoteker berlisensi resmi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Standards Section -->
+    <section id="about" class="py-32 px-6 bg-slate-950 text-white overflow-hidden relative">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-24 relative z-10">
+            <div class="md:w-1/2">
+                <h3 class="text-5xl font-display font-bold text-white mb-8 uppercase tracking-wider">Akurasi Klinis <br>Dan <span class="text-emerald-400 italic font-normal">Kepatuhan Regulasi Sah</span></h3>
+                <p class="text-slate-400 mb-10 text-lg font-light leading-relaxed">PT Apotek Hidayah Farma menjunjung tinggi profesionalisme medis, sterilisasi sarana penyimpanan obat, dan keabsahan administrasi hukum. Sebagai badan hukum perseroan terbatas resmi terverifikasi di Indonesia, setiap rantai pasokan dari distributor utama (*PBF*) dilindungi oleh payung hukum yang transparan dan akuntabel.</p>
+                
+                <div class="space-y-6 text-xs tracking-wider uppercase font-semibold font-mono">
+                    <div class="flex items-center gap-4">
+                        <i class="fas fa-check-circle text-emerald-400 text-lg"></i>
+                        <span class="text-slate-300">Kepatuhan Terhadap Standar Cara Distribusi Obat yang Baik (CDOB) & Kemenkes RI</span>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <i class="fas fa-shield-halved text-emerald-400 text-lg"></i>
+                        <span class="text-slate-300">Sistem Proteksi Autentisitas Dokumen Legalitas SIA-SIPA dan Manajemen Kontrak Vendor</span>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/2 w-full">
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1576086213369-97a306d36557?q=80&w=2080&auto=format&fit=crop" alt="Premium Modern Pharmaceutical Clinical Excellence Space" class="rounded-3xl shadow-2xl grayscale hover:grayscale-0 transition duration-1000">
+                    <div class="absolute -bottom-8 -right-8 bg-emerald-600 p-8 hidden md:block rounded-2xl shadow-xl emerald-glow">
+                        <i class="fas fa-shield-heart text-4xl text-slate-950"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Footer -->
+    <footer id="contact" class="bg-white py-32 px-6 border-t border-slate-100">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl md:text-6xl font-display font-bold text-slate-900 mb-12 uppercase tracking-tight">Pusat Hubungan Kemitraan</h2>
+            <p class="text-slate-500 mb-16 text-lg font-light">Kami menyambut terbuka korespondensi korporat resmi bersama pabrikan farmasi, pemilik jaringan PBF nasional, penyedia program kesehatan instansi, maupun keperluan verifikasi administratif dokumen legalitas lainnya.</p>
+            
+            <div class="grid md:grid-cols-2 gap-8 text-left mb-20">
+                <div class="p-10 bg-slate-50 border border-slate-200 rounded-2xl flex flex-col justify-center">
+                    <p class="text-emerald-600 text-[10px] uppercase tracking-widest mb-4 font-bold">Official Registered Corporate Identity</p>
+                    <p class="text-slate-800 font-display text-xl font-bold tracking-wider uppercase leading-relaxed">PT APOTEK HIDAYAH FARMA</p>
+                    <p class="text-xs text-slate-400 mt-1">Indonesia</p>
+                </div>
+                <div class="p-10 border border-slate-200 rounded-2xl bg-slate-50 flex flex-col justify-center">
+                    <p class="text-emerald-600 text-[10px] uppercase tracking-widest mb-4 font-bold">B2B Procurement Desk</p>
+                    <p class="text-slate-900 font-bold text-md tracking-widest uppercase">corporate@apotekhidayahfarma.co.id</p>
+                    <p class="text-xs text-slate-400 mt-2">Waktu Operasional: Senin - Jumat (08:30 - 17:00 WIB)</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center pt-20 border-t border-slate-100 gap-10">
+                <div class="flex items-center gap-3">
+                    <div class="w-8 h-8 bg-slate-950 flex items-center justify-center rounded-sm border border-emerald-600">
+                        <i class="fas fa-prescription-bottle-medical text-emerald-400 text-xs"></i>
+                    </div>
+                    <span class="text-xs font-bold tracking-[0.5em] uppercase text-slate-900 leading-none">PT Apotek Hidayah Farma</span>
+                </div>
+                <p class="text-[9px] text-slate-400 uppercase tracking-[0.5em] font-bold">
+                    &copy; 2026 PT Apotek Hidayah Farma. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
